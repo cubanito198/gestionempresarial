@@ -1,0 +1,31 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Elimina cualquier margen adicional */
+}
+
+nav ul li {
+    padding: 8px; /* Reduce el espacio interno */
+    margin: 3px 0; /* Reduce el espacio entre elementos */
+    cursor: pointer;
+}
+
+main nav {
+  overflow-y: auto; /* Independent scrolling for nav if needed */
+  background: rgb(220, 197, 20);
+  color: white;
+  width: 100%;
+}
+main nav{
+	background:rgb(0, 0, 0);
+	color:white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	width: 100%;
+
+}
+

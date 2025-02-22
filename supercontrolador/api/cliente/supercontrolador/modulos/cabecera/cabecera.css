@@ -1,0 +1,71 @@
+/* Estilos título tabla */
+.titulotabla {
+	display: inline-block;
+	padding-left: 10px;
+	background: yellow;
+	color: black;
+	padding: 10px 30px;
+	border-radius: 5px;
+	min-width: 300px;
+	min-height: 40px;
+	font-weight: bold;
+  }
+  .titulotabla * {
+	margin: 0px;
+  }
+  .titulotabla h5 {
+	font-size: 16px;
+  }
+  .titulotabla p {
+	font-size: 12px;
+  }
+  
+  /* Estilos cabecera */
+  header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+	background: black;
+	color: yellow;
+	padding: 10px;
+	border-bottom: 3px solid yellow;
+  }
+  
+  header h1 {
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	color: yellow;
+  }
+  
+  h1 img {
+	width: 60px;
+  }
+  
+  /* Botones de navegación */
+  header nav button {
+	background: yellow;
+	color: black;
+	border: 2px solid black;
+	padding: 8px 12px;
+	margin: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	border-radius: 5px;
+  }
+  
+  header nav button:hover {
+	background: black;
+	color: yellow;
+	border: 2px solid yellow;
+  }
+  
